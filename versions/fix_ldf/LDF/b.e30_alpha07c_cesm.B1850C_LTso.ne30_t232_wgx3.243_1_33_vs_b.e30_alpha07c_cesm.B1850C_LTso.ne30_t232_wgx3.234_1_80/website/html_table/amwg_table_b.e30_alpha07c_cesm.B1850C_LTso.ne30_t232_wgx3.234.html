@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ADF Mean Tables</title>
+    <link rel="stylesheet" href="../templates/adf_diag.css">
+  </head>
+  <body >
+    <div class="header">
+      <div id="screenFiller" style="background:url(../templates/NCAR.gif) top right no-repeat; border:5px solid #555;">
+        <div class="center"><h1> CAM Diagnostics</h1></div>
+          <div class="center">
+            <nav role="navigation" class="primary-navigation">
+            <ul>
+              <li><a href="../index.html">Case Home</a></li>
+              <li><a href="#">Plots &dtrif;</a>
+                <ul class="dropdown">
+                  
+                    <li><a href=../html_table/mean_tables.html> &nbsp; Tables</a></li>
+                  
+                    <li><a href=../html_img/mean_diag_LatLon.html> &nbsp; LatLon</a></li>
+                  
+                    <li><a href=../html_img/mean_diag_Arctic.html> &nbsp; Arctic</a></li>
+                  
+                    <li><a href=../html_img/mean_diag_TimeSeries.html> &nbsp; TimeSeries</a></li>
+                  
+                    <li><a href=../html_img/mean_diag_RegionalClimo.html> &nbsp; RegionalClimo</a></li>
+                  
+                </ul>
+              </li>
+                  <li><a href="#">Links &dtrif;</a>
+                <ul class="dropdown">
+                  <li><a href="https://www.cesm.ucar.edu">CESM</a></li>
+                  <li><a href="https://www.cesm.ucar.edu/working_groups/Atmosphere/?ref=nav">AMWG</a></li>
+                  <li><a href="https://www.cgd.ucar.edu/amp/">AMP</a></li>
+                </ul>
+              </li>
+              <li><a href="https://github.com/NCAR/ADF">About</a></li>
+              <li><a href="https://github.com/NCAR/ADF/discussions">Contact</a></li>
+            </ul>
+          </nav>
+        </div><!--center-->
+        <br>
+        <h2 style="display:inline; color:black;"> Test Case: </h2><h2 style="display:inline;">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.243</h2><h2 style="display:inline; color:black;"> - years: 1 - 33</h2><br>
+        <h2 style="display:inline; color:black;"> Baseline Case: </h2><h2 style="display:inline;">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234</h2><h2 style="display:inline; color:black;"> - years: 1 - 80</h2>
+      </div><!--screenFiller-->
+    </div><!--header-->
+
+    <div class="center">
+      <h1>AMWG Tables</h1>
+    </div>
+
+    <div style="width: 100%;">
+      <table class="big-table">
+        
+          <tr>
+            <td><a id="amwg_table" href="amwg_table_b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.243.html">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.243</a></td>
+          </tr>
+        
+          <tr>
+            <td><a id="amwg_table" href="amwg_table_b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234.html">b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234</a></td>
+          </tr>
+        
+          <tr>
+            <td><a id="amwg_table" href="amwg_table_Case Comparison.html">Case Comparison</a></td>
+          </tr>
+        
+      </table><br>
+
+      <!-- Main Table HTML -->
+      <h3> b.e30_alpha07c_cesm.B1850C_LTso.ne30_t232_wgx3.234 </h3>
+      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>variable</th>
+      <th>unit</th>
+      <th>mean</th>
+      <th>sample size</th>
+      <th>standard dev.</th>
+      <th>standard error</th>
+      <th>95% CI</th>
+      <th>trend</th>
+      <th>trend p-value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TSA</td>
+      <td>K</td>
+      <td>280.981</td>
+      <td>80</td>
+      <td>0.3</td>
+      <td>0.004</td>
+      <td>0.007</td>
+      <td>281.288 + -0.008 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PREC</td>
+      <td>mm d$^{-1}$</td>
+      <td>2.378</td>
+      <td>80</td>
+      <td>0.066</td>
+      <td>0.001</td>
+      <td>0.002</td>
+      <td>2.342 +  0.001 t</td>
+      <td>0.005</td>
+    </tr>
+    <tr>
+      <td>ELAI</td>
+      <td>m${-2}$ m${-2}$</td>
+      <td>1.017</td>
+      <td>80</td>
+      <td>0.033</td>
+      <td>0</td>
+      <td>0.001</td>
+      <td>1.026 + -0.000 t</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <td>FSDS</td>
+      <td>W m$^{-2}$</td>
+      <td>198.251</td>
+      <td>80</td>
+      <td>0.464</td>
+      <td>0.006</td>
+      <td>0.011</td>
+      <td>198.030 +  0.005 t</td>
+      <td>0.015</td>
+    </tr>
+    <tr>
+      <td>FLDS</td>
+      <td>W m$^{-2}$</td>
+      <td>298.032</td>
+      <td>80</td>
+      <td>1.662</td>
+      <td>0.021</td>
+      <td>0.041</td>
+      <td>299.746 + -0.042 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ASA</td>
+      <td>% reflected</td>
+      <td>29.057</td>
+      <td>80</td>
+      <td>0.147</td>
+      <td>0.002</td>
+      <td>0.004</td>
+      <td>28.939 +  0.003 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>RNET</td>
+      <td>W m$^{-2}$</td>
+      <td>72.084</td>
+      <td>80</td>
+      <td>0.368</td>
+      <td>0.005</td>
+      <td>0.009</td>
+      <td>72.289 + -0.005 t</td>
+      <td>0.004</td>
+    </tr>
+    <tr>
+      <td>FSH</td>
+      <td>W m$^{-2}$</td>
+      <td>33.098</td>
+      <td>80</td>
+      <td>0.463</td>
+      <td>0.006</td>
+      <td>0.011</td>
+      <td>33.307 + -0.005 t</td>
+      <td>0.021</td>
+    </tr>
+    <tr>
+      <td>ET</td>
+      <td>W m$^{-2}$</td>
+      <td>38.152</td>
+      <td>80</td>
+      <td>0.609</td>
+      <td>0.008</td>
+      <td>0.015</td>
+      <td>38.093 +  0.001 t</td>
+      <td>0.627</td>
+    </tr>
+    <tr>
+      <td>FCTR</td>
+      <td>W m$^{-2}$</td>
+      <td>17.843</td>
+      <td>80</td>
+      <td>0.419</td>
+      <td>0.005</td>
+      <td>0.01</td>
+      <td>17.986 + -0.004 t</td>
+      <td>0.084</td>
+    </tr>
+    <tr>
+      <td>FGEV</td>
+      <td>W m$^{-2}$</td>
+      <td>12.28</td>
+      <td>80</td>
+      <td>0.319</td>
+      <td>0.004</td>
+      <td>0.008</td>
+      <td>11.968 +  0.008 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FCEV</td>
+      <td>W m$^{-2}$</td>
+      <td>8.029</td>
+      <td>80</td>
+      <td>0.162</td>
+      <td>0.002</td>
+      <td>0.004</td>
+      <td>8.140 + -0.003 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QRUNOFF_TO_COUPLER</td>
+      <td>mm d$^{-1}$</td>
+      <td>1.002</td>
+      <td>80</td>
+      <td>0.045</td>
+      <td>0.001</td>
+      <td>0.001</td>
+      <td>0.965 +  0.001 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SNOWDP</td>
+      <td>m</td>
+      <td>2.278</td>
+      <td>80</td>
+      <td>0.01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2.289 + -0.000 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GPP</td>
+      <td>PgC y$^{-1}$</td>
+      <td>85.158</td>
+      <td>80</td>
+      <td>2.149</td>
+      <td>0.027</td>
+      <td>0.053</td>
+      <td>84.965 +  0.005 t</td>
+      <td>0.653</td>
+    </tr>
+    <tr>
+      <td>NPP</td>
+      <td>PgC y$^{-1}$</td>
+      <td>34.363</td>
+      <td>80</td>
+      <td>0.818</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>34.213 +  0.004 t</td>
+      <td>0.356</td>
+    </tr>
+    <tr>
+      <td>NEE</td>
+      <td>PgC y$^{-1}$</td>
+      <td>1.969</td>
+      <td>80</td>
+      <td>1.828</td>
+      <td>0.023</td>
+      <td>0.045</td>
+      <td>4.688 + -0.067 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NBP</td>
+      <td>PgC y$^{-1}$</td>
+      <td>-2.492</td>
+      <td>80</td>
+      <td>1.838</td>
+      <td>0.023</td>
+      <td>0.045</td>
+      <td>-5.227 +  0.068 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BTRANMN</td>
+      <td>unitless</td>
+      <td>0.574</td>
+      <td>80</td>
+      <td>0.00444</td>
+      <td>5.54e-05</td>
+      <td>0.000109</td>
+      <td>0.568 +  0.000148 t</td>
+      <td>5.58e-17</td>
+    </tr>
+    <tr>
+      <td>TOTVEGC</td>
+      <td>PgC</td>
+      <td>417.255</td>
+      <td>80</td>
+      <td>29.177</td>
+      <td>0.365</td>
+      <td>0.715</td>
+      <td>463.247 + -1.136 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOTECOSYSC</td>
+      <td>gC/m^2</td>
+      <td>19087.3</td>
+      <td>80</td>
+      <td>354.49</td>
+      <td>4.431</td>
+      <td>8.685</td>
+      <td>19680.364 + -14.643 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOTSOMC_1m</td>
+      <td>PgC</td>
+      <td>1569.29</td>
+      <td>80</td>
+      <td>15.015</td>
+      <td>0.188</td>
+      <td>0.368</td>
+      <td>1595.552 + -0.648 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ALTMAX</td>
+      <td>m</td>
+      <td>32.239</td>
+      <td>80</td>
+      <td>0.198</td>
+      <td>0.002</td>
+      <td>0.005</td>
+      <td>31.924 +  0.008 t</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FAREA_BURNED</td>
+      <td>s-1</td>
+      <td>2.78e-09</td>
+      <td>80</td>
+      <td>1.89e-10</td>
+      <td>2.36e-12</td>
+      <td>4.63e-12</td>
+      <td>2.86e-09 + -1.96e-12 t</td>
+      <td>0.0329</td>
+    </tr>
+    <tr>
+      <td>DSTFLXT</td>
+      <td>Pg y$^{-1}$</td>
+      <td>7.981</td>
+      <td>80</td>
+      <td>0.395</td>
+      <td>0.005</td>
+      <td>0.01</td>
+      <td>8.204 + -0.005 t</td>
+      <td>0.004</td>
+    </tr>
+    <tr>
+      <td>MEG_isoprene</td>
+      <td>Tg y$^{-1}$</td>
+      <td>421.513</td>
+      <td>80</td>
+      <td>34.536</td>
+      <td>0.432</td>
+      <td>0.846</td>
+      <td>440.212 + -0.462 t</td>
+      <td>0.005</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+  </body>
+</html>
